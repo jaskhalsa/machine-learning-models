@@ -60,7 +60,7 @@ fig = plt.figure(figsize=(25,25))
     
 # ax1 = fig.add_subplot(221)
 ax1 = fig.add_subplot(221)
-ax1.title.set_text('Length scale 0.1')
+ax1.title.set_text('Length scale 3')
 ax1.plot(X, samples)
 ax1.scatter(X_train, Y_train, marker='o')
 plt.show()
